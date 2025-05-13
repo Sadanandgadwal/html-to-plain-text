@@ -1,0 +1,56 @@
+{
+  "name": "html-to-plain-text",
+  "version": "1.0.0",
+  "description": "Convert HTML to plain text with React and Next.js support",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run build",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "next": ">=9.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "jest": "^27.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.56.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "he": "^1.2.0"
+  },
+  "keywords": [
+    "html",
+    "plaintext",
+    "text",
+    "converter",
+    "react",
+    "nextjs"
+  ],
+  "author": {
+    "name": "Sadanand Gadwal",
+    "email": "sadanandgadwal@example.com",
+    "url": "https://github.com/Sadanandgadwal"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sadanandgadwal/html-to-plain-text.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sadanandgadwal/html-to-plain-text/issues"
+  },
+  "homepage": "https://github.com/Sadanandgadwal/html-to-plain-text#readme"
+}
